@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         //node.geometry = SCNSphere(radius: 0.1)
         //node.geometry = SCNTorus(ringRadius: 0.3, pipeRadius: 0.1)
         //node.geometry = SCNPlane(width: 0.2, height: 0.2)
+        //node.geometry = SCNPyramid(width: 0.2, height: 0.2)
         node.geometry = SCNPyramid(width: 0.1, height: 0.1, length: 0.1)
         let path = UIBezierPath()
         path.move(to: CGPoint(x: 0, y: 0))
